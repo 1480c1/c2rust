@@ -16,7 +16,7 @@ description = "Clang AST extraction API for use in the C2Rust project"
 libc = "0.2"
 serde = "1.0"
 serde_bytes = "0.11"
-serde_cbor = "0.9"
+serde_cbor = "0.10"
 
 [build-dependencies]
 bindgen = { version = "0.51", features = ["logging"] }
