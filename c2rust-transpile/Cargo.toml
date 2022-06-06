@@ -13,7 +13,7 @@ description = "C2Rust transpiler implementation"
 edition = "2018"
 
 [dependencies]
-serde_cbor = "0.9"
+serde_cbor = "0.10"
 clap = {version = "2.33", features = ["yaml"]}
 dtoa = "0.4.2"
 serde = { version = "1.0", features = ["rc"] }
